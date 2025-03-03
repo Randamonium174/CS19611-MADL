@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_movie_cast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cast" />
+
+    <EditText
+        android:id="@+id/edit_movie_director"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Director" />
+
+    <EditText
+        android:id="@+id/edit_movie_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Music" />
+
+    <EditText
+        android:id="@+id/edit_movie_producer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Producer" />
+
+</LinearLayout>
