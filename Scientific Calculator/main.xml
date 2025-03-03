@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:background="@android:color/darker_gray"
+        android:padding="10dp"
+        android:text="0"
+        android:gravity="end" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+        <!-- Number Buttons -->
+        <Button android:text="7" android:onClick="onNumberClick"/>
+        <Button android:text="8" android:onClick="onNumberClick"/>
+        <Button android:text="9" android:onClick="onNumberClick"/>
+        <Button android:text="/" android:onClick="onOperatorClick"/>
+
+        <Button android:text="4" android:onClick="onNumberClick"/>
+        <Button android:text="5" android:onClick="onNumberClick"/>
+        <Button android:text="6" android:onClick="onNumberClick"/>
+        <Button android:text="*" android:onClick="onOperatorClick"/>
+
+        <Button android:text="1" android:onClick="onNumberClick"/>
+        <Button android:text="2" android:onClick="onNumberClick"/>
+        <Button android:text="3" android:onClick="onNumberClick"/>
+        <Button android:text="-" android:onClick="onOperatorClick"/>
+
+        <Button android:text="0" android:onClick="onNumberClick"/>
+        <Button android:text="C" android:onClick="onClearClick"/>
+        <Button android:text="=" android:onClick="onEqualClick"/>
+        <Button android:text="+" android:onClick="onOperatorClick"/>
+
+        <!-- Scientific Functions -->
+        <Button android:text="sin" android:onClick="onFunctionClick"/>
+        <Button android:text="cos" android:onClick="onFunctionClick"/>
+        <Button android:text="tan" android:onClick="onFunctionClick"/>
+        <Button android:text="sqrt" android:onClick="onFunctionClick"/>
+
+        <Button android:text="asin" android:onClick="onFunctionClick"/>
+        <Button android:text="acos" android:onClick="onFunctionClick"/>
+        <Button android:text="atan" android:onClick="onFunctionClick"/>
+        <Button android:text="log" android:onClick="onFunctionClick"/>
+
+        <Button android:text="e^x" android:onClick="onFunctionClick"/>
+        <Button android:text="x^y" android:onClick="onOperatorClick"/>
+        <Button android:text="n√x" android:onClick="onOperatorClick"/>
+        <Button android:text="mod" android:onClick="onOperatorClick"/>
+
+        <Button android:text="x!" android:onClick="onFunctionClick"/>
+        <Button android:text="sinh" android:onClick="onFunctionClick"/>
+        <Button android:text="cosh" android:onClick="onFunctionClick"/>
+        <Button android:text="tanh" android:onClick="onFunctionClick"/>
+
+    </GridLayout>
+
+</LinearLayout>
