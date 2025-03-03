@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- Text Display -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Oscar Guzman Flies Again"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnFontSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size"
+        android:layout_marginTop="20dp"/> <!-- FIXED -->
+
+    <Button
+        android:id="@+id/btnFontColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Font Color"
+        android:layout_marginTop="10dp"/> <!-- FIXED -->
+
+    <Button
+        android:id="@+id/btnBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Background Color"
+        android:layout_marginTop="10dp"/> <!-- FIXED -->
+
+</LinearLayout>
